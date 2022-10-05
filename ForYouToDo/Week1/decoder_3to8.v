@@ -1,9 +1,10 @@
-`timescale  1ns / 1ns
+// `timescale  1ns / 1ns
 
 //----------------------------------------------------------------
 // Declare
 //----------------------------------------------------------------
 
+// This coding may be a simple way.
 // Using UTF-8.
 // NOT in System Verilog instead of Verilog HDL
 // ALL RIGHTS RESERVED BY ClARK.
