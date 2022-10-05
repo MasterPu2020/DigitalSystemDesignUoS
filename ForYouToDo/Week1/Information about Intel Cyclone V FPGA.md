@@ -12,7 +12,7 @@ The Cyclone® V FPGA core architecture comprises the following:
 ## Similarity between Xilinx FPGA and Intel Cyclone V  
 ### Take the Xilinx ZYNQ 7000 SoC as an example, it has up to 6.6M logic cells and offered with transceivers ranging from 6.25Gb/s to 12.5Gb/s which is more powerful and can be applied to more professional areas. But similar to the Intel Cyclone V, Xilinx ZYNQ 7000 SoC also integrates the software programmability of an ARM-based processor with the hardware programmability of an FPGA.  
 ***
-## Reference
-Information located at: 
-*https://www.intel.co.uk/content/www/uk/en/products/details/fpga/cyclone/v/article.html*
-*https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html*
+## Reference  
+Information located at:  
+*https://www.intel.co.uk/content/www/uk/en/products/details/fpga/cyclone/v/article.html*  
+*https://www.xilinx.com/products/silicon-devices/soc/zynq-7000.html*  

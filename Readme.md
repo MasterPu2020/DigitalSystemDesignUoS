@@ -16,7 +16,6 @@ All the works in this repository are done by Clark myself.
     - Git  
 3. Languages
     - System verilog
-    - Verilog HDL
-    - ~~ VHDL ~~  
+    - Verilog HDL  
 ## Information  
 Recently no information provided, but I will renew it later.
