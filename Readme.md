@@ -5,7 +5,7 @@ I'm one of the MSD students in 2022 learning this course.
 And I build this repository for uploading some 'To Do' coursework that might not be counted into marks.  
 Also for sharing some information about System Verilog that might be useful.  
 All the works in this repository are done by Clark myself.  
-***Copyright remained by Clark.***  
+***Copyright Reserved by Clark.***  
 ## Tools  
 1. EDA Tools
     - Vivado
@@ -17,6 +17,6 @@ All the works in this repository are done by Clark myself.
 3. Languages
     - System verilog
     - Verilog HDL
-    ~~ - VHDL ~~  
+    - ~~ VHDL ~~  
 ## Information  
 Recently no information provided, but I will renew it later.
