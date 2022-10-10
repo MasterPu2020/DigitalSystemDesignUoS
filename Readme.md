@@ -10,12 +10,13 @@ All the works in this repository are done by Clark myself.
 ***Copyright Reserved by Clark.***  
 ## Tools  
 1. EDA Tools (Free)  
-    - Vitis (Pre Vivado, note that Vitis is not suitable for Intel FPGA! Maybe you don't want to download it!): *https://www.xilinx.com/products/design-tools/vitis/vitis-platform.html*  
-    - Quartus Prime Lite: *https://www.intel.com/content/www/us/en/software-kit/736572/intel-quartus-prime-lite-edition-design-software-version-21-1-1-for-windows.html?*  
-    - Modelsim: Unavailable, but really useful!  
+    - [Vitis](https://www.xilinx.com/products/design-tools/vitis/vitis-platform.html) (Pre Vivado, note that Vitis is not suitable for Intel FPGA! Maybe you DON'T want to download it!):   
+    - [Quartus](https://www.intel.com/content/www/us/en/software-kit/736572/intel-quartus-prime-lite-edition-design-software-version-21-1-1-for-windows.html?) Prime Lite   
+    - Modelsim now is unavailable, although it is really useful. 
+    - [Questa](https://www.intel.com/content/www/us/en/software-kit/746695/questa-intel-fpgas-edition-software-version-22-3.html ) Intel FPGA version (Mentor now is a memeber of Siemens, and Modelsim now is renamed as Questa. I don't know if this link works but I'll still stick it here)   
 2. IDE Tools (Free)  
-    - VS code: *https://code.visualstudio.com/download*  
-    - Git (For code version management): *https://git-scm.com/downloads*  
+    - [VS code](https://code.visualstudio.com/download)  
+    - [Git](https://git-scm.com/downloads) (For code version management)  
     - GitHub: That's where you are now.  
     - Notepad (Windows original): On any Windows machine, helpful to deal with the hand-writing-coding exam!  
 3. Languages  
