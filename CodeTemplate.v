@@ -102,16 +102,16 @@ ModuleImport
 // Initialization
 initial begin
     for(row = 0; row <= 255; row = row + 1)
-        row = row + 1;
+        row <= row + 1;
 end
 
 // State Machine
-always @(posedge clk_i) begin
-    if (rst_i == 1) begin
-        row = 0;
+always @(posedge clk_i, negedge rst_i) begin
+    if (!rst_i) begin
+        row <= 0;
     end
     else begin
-        row = row + 1;
+        row <= row + 1;
     end
 end
 

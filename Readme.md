@@ -1,7 +1,8 @@
 # Digital System Design *ELEC6236*  
 ***  
 ## Recent Update!  
-### Week 1: For you to do on **Wednesday** and **Friday**.  
+### Week 2: For you to do on **Friday**.  
+### INFOR: I recently infected COVID, so I apologize that the update speed may slow down.
 ## Announcement  
 I'm one of the MSD students in 2022 learning this course.  
 And I build this repository for uploading some 'For you to do' coursework that might not be counted into marks.  
@@ -28,4 +29,4 @@ All the works in this repository are done by Clark myself.
 - Verilog_Testbench: Automaticly generate testbench but **depend on python 3**  
 - Verilog-HDL/SystemVerilog/Bluespec SystemVerilog: Mark with colours and support a co-complier!  
 ## Information  
-For Chinese learners who have not learned Verilog before, you can find some really helpful information on this website: *https://www.runoob.com/w3cnote/verilog-data-type.html*
+For Chinese learners who have not learned Verilog before, you can find some really helpful information on this [website](https://www.runoob.com/w3cnote/verilog-data-type.html).  
