@@ -1,8 +1,7 @@
 # Digital System Design *ELEC6236*  
 ***  
 ## Recent Update!  
-### Week 2: For you to do on **Friday**.  
-### INFOR: I recently infected COVID, so I apologize that the update speed may slow down.
+### Week 4: **More Notes**, no recent update about for you to do.  
 ## Announcement  
 I'm one of the MSD students in 2022 learning this course.  
 And I build this repository for uploading some 'For you to do' coursework that might not be counted into marks.  
