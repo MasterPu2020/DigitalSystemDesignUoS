@@ -1,6 +1,18 @@
-# Statemachine  
+# Statemachine 
+***   
+## For you to do skipped items:  
+- 2 & 3 A testbench, can be easy  
+- 5 watch a video, nothing to answer.  
+- Assignment? 开摆.  
+***  
+## For you to do answers:
+1. Code is in the sv file.  
+4. First one is a Mux Gate with one always low voltage input. And the next one is a latch triggered by enable signal which I think it comes better with an always_latch instead of always_comb because you tend to create a latch.  
+6. Yes. Take the traffic light controller as an example, circuits that only use sequential logic are certainly simpler than combinational and sequential logic circuits, but the latter can be more efficient than the former. Design according to product requirements is the best choice.  
+***  
 ## Design a statemachine manually
     By using ASM chart  
+***  
 ## Design in System Verilog  
 ### coding style template:  
 - Style1:  

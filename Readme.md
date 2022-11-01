@@ -2,7 +2,7 @@
 ***  
 ## Recent Update!  
 ### Update for you to do list
-### There is a strike action (as well as 开摆) on for you to do on Tuseday because this week's work is too much.
+### There is a strike action (as well as 开摆) on for you to do on Tuseday because this week's work is too much. Don't worry, I still did go trough every works that you can find in the Week4and5 notes.
 ***
 ## Announcement  
 I'm one of the MSD students in 2022 learning this course.  
