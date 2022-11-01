@@ -3,6 +3,7 @@
 ## Recent Update!  
 ### Update for you to do list
 ### There is a strike action (as well as 开摆) on for you to do on Tuseday because this week's work is too much.
+***
 ## Announcement  
 I'm one of the MSD students in 2022 learning this course.  
 And I build this repository for uploading some 'For you to do' coursework that might not be counted into marks.  

@@ -1,13 +1,14 @@
-
 //----------------------------------------------------------------
 // Declare
 //----------------------------------------------------------------
 
 // Using UTF-8.
 // System Verilog
-// ALL RIGHTS RESERVED BY ClARK.
+// Different between the one with always_comb:
+//     Using state replaced with present and next state
+//     Always dectect at clock edge, which means a slightly bad performance
 
-module traffic_light
+module traffic 
 
 //----------------------------------------------------------------
 // Inherited Module Params
@@ -16,57 +17,55 @@ module traffic_light
 //----------------------------------------------------------------
 // Ports
 //----------------------------------------------------------------
+
 (
-     clk_i
-    ,n_rst_i
-    ,en_i
-    ,car_i
-    ,timed_i
-    ,counter_o
+     start_timer
+    ,major_green
+    ,minor_green
+    ,clock
+    ,n_reset
+    ,timed
+    ,car
 );
 
     // Inputs
-    input logic clk_i;
-    input logic n_rst_i;
-    input logic en_i;
-    input logic car_i;
-    input logic timed_i;
-
+    input logic clock, n_reset, timed, car;
+    
     // Outputs
-    output logic counter_o;
+    output logic start_timer,major_green, minor_green;
 
 //----------------------------------------------------------------
 // Registers
 //----------------------------------------------------------------
 
-enum {G, R} state;
+enum {Green, Red} state;
 
 //----------------------------------------------------------------
 // Circuits
 //----------------------------------------------------------------
 
-always_ff @(posedge clk_i, negedge n_rst_i) begin: SEQ
-    if (!n_rst_i)
-        state <= G;
-    else
-    unique case (state)
-        G: if (car_i)
-            state <= R;
-        R: if (timed)
-            state <= G;
+always_ff @(posedge clock, negedge n_reset) begin
+    start_timer <= '0;
+    minor_green <= '0;
+    major_green <= '0;
+    if (!n_reset)
+        state <= Green;
+    else begin
+        unique case (state)
+            Green: begin
+                major_green <= '1;
+                if (car) begin
+                    start_timer <= '1;
+                    state <= Red;
+                end
+            end
+            Red: begin
+                minor_green <= '1;
+                if (timed)
+                    state <= Green;
+            end
         endcase
+    end
 end
-always_comb begin: OP
-    start_timer = '0;
-    minor_green = '0;
-    major_green = '0;
-    unique case (state)
-        G: begin
-            major_green = '1;
-            if (car_i)
-                start_timer = '1;
-        end
-        R: minor_green = '1; 
-    endcase
-end
+
 endmodule
