@@ -1,8 +1,7 @@
 # Digital System Design *ELEC6236*  
 ***  
 ## Recent Update!  
-### Update for you to do list
-### There is a strike action (as well as 开摆) on for you to do on Tuseday because this week's work is too much. Don't worry, I still did go trough every works that you can find in the Week4and5 notes.
+### Happy happy happy, this is a final update since this module has fullfilled its mission!
 ***
 ## Announcement  
 I'm one of the MSD students in 2022 learning this course.  
